@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'ddtrace'
+#gem 'ddtrace', :git => 'git://github.com/alexsantosfilho/ruby.git'
 git_source(:github) { |repo| "https://github.com/alexsantosfilho/ruby.git" }
 
 ruby '2.5.0'
